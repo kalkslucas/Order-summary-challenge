@@ -1,0 +1,126 @@
+@font-face {
+    font-family: RedHat;
+    src: url(../font/RedHat.woff);
+}
+
+body {
+    background: url(../images/pattern-background-desktop.svg) repeat-x top hsl(225, 100%, 94%);
+    max-width: 1440px;
+    font-family: RedHat;
+}
+
+#card {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    background-color: white;
+}
+
+#illustration {
+    background-image: url(../images/illustration-hero.svg);
+    background-size: 100%;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+
+#text {
+    width: 300px;
+    margin: 15px auto;
+}
+
+#text p {
+    text-align: center;
+}
+
+h2 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);
+}
+
+#music {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    box-sizing: border-box;
+    padding: 24px;
+    width: 100%;
+}
+
+.icon-music {
+    float: left;
+}
+
+#music-text {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: 22px;
+    text-align: left;
+}
+
+#music-text h4 {
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+    margin: 0 auto 0.5rem;
+}
+
+#music-text p {
+    margin: 0 auto 0.5rem;
+}
+
+.change {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.change:hover {
+    color: hsl(245, 94%, 80%);
+    text-decoration: none;
+}
+
+input {
+    display: block;
+    text-align: center;
+    width: 100%;
+    line-height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.pagar {
+    margin: 30px 0 5px 0;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 900;
+}
+
+.pagar:hover {
+    background-color: hsl(245, 94%, 80%);
+}
+
+.cancelar {
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    font-weight: bolder;
+}
+
+.cancelar:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+
+
+
